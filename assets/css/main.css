@@ -1,0 +1,27 @@
+element.style {
+
+}
+
+body{
+    background-color: blueviolet;
+    margin: 0;
+}
+
+body{
+    display: block;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: bisque;
+    font-size: 30px;
+    height: 50px;
+}
+
+.div1{grid-area: 1/1/2/4;}
+.div2{grid-area: 1/5/2/6;}
+.div3{grid-area: 1/7/2/8;}
